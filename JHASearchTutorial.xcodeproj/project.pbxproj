@@ -15,6 +15,12 @@
 		5A748CCE1B8BB40200EEA8A5 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 5A748CCD1B8BB40200EEA8A5 /* Images.xcassets */; };
 		5A748CD11B8BB40200EEA8A5 /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = 5A748CCF1B8BB40200EEA8A5 /* LaunchScreen.xib */; };
 		5A748CDD1B8BB40200EEA8A5 /* JHASearchTutorialTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 5A748CDC1B8BB40200EEA8A5 /* JHASearchTutorialTests.m */; };
+		5A748CEB1B8D05BC00EEA8A5 /* BlogSearchViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 5A748CEA1B8D05BC00EEA8A5 /* BlogSearchViewController.m */; };
+		5A748CF01B8D075400EEA8A5 /* blog.json in Resources */ = {isa = PBXBuildFile; fileRef = 5A748CEC1B8D075400EEA8A5 /* blog.json */; };
+		5A748CF11B8D075400EEA8A5 /* BlogObject.m in Sources */ = {isa = PBXBuildFile; fileRef = 5A748CEE1B8D075400EEA8A5 /* BlogObject.m */; };
+		5A748CF21B8D075400EEA8A5 /* emoji.json in Resources */ = {isa = PBXBuildFile; fileRef = 5A748CEF1B8D075400EEA8A5 /* emoji.json */; };
+		5A748CFB1B8D220000EEA8A5 /* BlogPostTableViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 5A748CF91B8D220000EEA8A5 /* BlogPostTableViewCell.m */; };
+		5A748CFC1B8D220000EEA8A5 /* BlogPostTableViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 5A748CFA1B8D220000EEA8A5 /* BlogPostTableViewCell.xib */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -42,6 +48,15 @@
 		5A748CD61B8BB40200EEA8A5 /* JHASearchTutorialTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = JHASearchTutorialTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		5A748CDB1B8BB40200EEA8A5 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		5A748CDC1B8BB40200EEA8A5 /* JHASearchTutorialTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = JHASearchTutorialTests.m; sourceTree = "<group>"; };
+		5A748CE91B8D05BC00EEA8A5 /* BlogSearchViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BlogSearchViewController.h; sourceTree = "<group>"; };
+		5A748CEA1B8D05BC00EEA8A5 /* BlogSearchViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BlogSearchViewController.m; sourceTree = "<group>"; };
+		5A748CEC1B8D075400EEA8A5 /* blog.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = blog.json; sourceTree = "<group>"; };
+		5A748CED1B8D075400EEA8A5 /* BlogObject.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BlogObject.h; sourceTree = "<group>"; };
+		5A748CEE1B8D075400EEA8A5 /* BlogObject.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BlogObject.m; sourceTree = "<group>"; };
+		5A748CEF1B8D075400EEA8A5 /* emoji.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = emoji.json; sourceTree = "<group>"; };
+		5A748CF81B8D220000EEA8A5 /* BlogPostTableViewCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BlogPostTableViewCell.h; sourceTree = "<group>"; };
+		5A748CF91B8D220000EEA8A5 /* BlogPostTableViewCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BlogPostTableViewCell.m; sourceTree = "<group>"; };
+		5A748CFA1B8D220000EEA8A5 /* BlogPostTableViewCell.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = BlogPostTableViewCell.xib; sourceTree = "<group>"; };
 		CE46E7AA43CB7CECEA0F1041 /* Pods.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = Pods.debug.xcconfig; path = "Pods/Target Support Files/Pods/Pods.debug.xcconfig"; sourceTree = "<group>"; };
 		E694E77FE14E9836A1F9A9AC /* Pods.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = Pods.release.xcconfig; path = "Pods/Target Support Files/Pods/Pods.release.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
@@ -93,9 +108,18 @@
 				5A748CC71B8BB40200EEA8A5 /* ViewController.h */,
 				5A748CC81B8BB40200EEA8A5 /* ViewController.m */,
 				5A748CCA1B8BB40200EEA8A5 /* Main.storyboard */,
+				5A748CE91B8D05BC00EEA8A5 /* BlogSearchViewController.h */,
+				5A748CEA1B8D05BC00EEA8A5 /* BlogSearchViewController.m */,
 				5A748CCD1B8BB40200EEA8A5 /* Images.xcassets */,
 				5A748CCF1B8BB40200EEA8A5 /* LaunchScreen.xib */,
 				5A748CC01B8BB40200EEA8A5 /* Supporting Files */,
+				5A748CEC1B8D075400EEA8A5 /* blog.json */,
+				5A748CED1B8D075400EEA8A5 /* BlogObject.h */,
+				5A748CEE1B8D075400EEA8A5 /* BlogObject.m */,
+				5A748CEF1B8D075400EEA8A5 /* emoji.json */,
+				5A748CF81B8D220000EEA8A5 /* BlogPostTableViewCell.h */,
+				5A748CF91B8D220000EEA8A5 /* BlogPostTableViewCell.m */,
+				5A748CFA1B8D220000EEA8A5 /* BlogPostTableViewCell.xib */,
 			);
 			path = JHASearchTutorial;
 			sourceTree = "<group>";
@@ -226,6 +250,9 @@
 			buildActionMask = 2147483647;
 			files = (
 				5A748CCC1B8BB40200EEA8A5 /* Main.storyboard in Resources */,
+				5A748CFC1B8D220000EEA8A5 /* BlogPostTableViewCell.xib in Resources */,
+				5A748CF01B8D075400EEA8A5 /* blog.json in Resources */,
+				5A748CF21B8D075400EEA8A5 /* emoji.json in Resources */,
 				5A748CD11B8BB40200EEA8A5 /* LaunchScreen.xib in Resources */,
 				5A748CCE1B8BB40200EEA8A5 /* Images.xcassets in Resources */,
 			);
@@ -278,8 +305,11 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				5A748CF11B8D075400EEA8A5 /* BlogObject.m in Sources */,
 				5A748CC91B8BB40200EEA8A5 /* ViewController.m in Sources */,
 				5A748CC61B8BB40200EEA8A5 /* AppDelegate.m in Sources */,
+				5A748CFB1B8D220000EEA8A5 /* BlogPostTableViewCell.m in Sources */,
+				5A748CEB1B8D05BC00EEA8A5 /* BlogSearchViewController.m in Sources */,
 				5A748CC31B8BB40200EEA8A5 /* main.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
