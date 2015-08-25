@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		27EA9AA92230045825D23C4B /* libPods.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 51581C93C975536A97EE8B7C /* libPods.a */; };
 		5A748CC31B8BB40200EEA8A5 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 5A748CC21B8BB40200EEA8A5 /* main.m */; };
 		5A748CC61B8BB40200EEA8A5 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 5A748CC51B8BB40200EEA8A5 /* AppDelegate.m */; };
 		5A748CC91B8BB40200EEA8A5 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 5A748CC81B8BB40200EEA8A5 /* ViewController.m */; };
@@ -27,6 +28,7 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		51581C93C975536A97EE8B7C /* libPods.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = libPods.a; sourceTree = BUILT_PRODUCTS_DIR; };
 		5A748CBD1B8BB40200EEA8A5 /* JHASearchTutorial.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = JHASearchTutorial.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		5A748CC11B8BB40200EEA8A5 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		5A748CC21B8BB40200EEA8A5 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
@@ -40,6 +42,8 @@
 		5A748CD61B8BB40200EEA8A5 /* JHASearchTutorialTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = JHASearchTutorialTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		5A748CDB1B8BB40200EEA8A5 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		5A748CDC1B8BB40200EEA8A5 /* JHASearchTutorialTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = JHASearchTutorialTests.m; sourceTree = "<group>"; };
+		CE46E7AA43CB7CECEA0F1041 /* Pods.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = Pods.debug.xcconfig; path = "Pods/Target Support Files/Pods/Pods.debug.xcconfig"; sourceTree = "<group>"; };
+		E694E77FE14E9836A1F9A9AC /* Pods.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = Pods.release.xcconfig; path = "Pods/Target Support Files/Pods/Pods.release.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -47,6 +51,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				27EA9AA92230045825D23C4B /* libPods.a in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -66,6 +71,8 @@
 				5A748CBF1B8BB40200EEA8A5 /* JHASearchTutorial */,
 				5A748CD91B8BB40200EEA8A5 /* JHASearchTutorialTests */,
 				5A748CBE1B8BB40200EEA8A5 /* Products */,
+				BEADA2FE70FD9F8A1359F876 /* Pods */,
+				C8910511E98A4851E0EAF74A /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -119,6 +126,23 @@
 			name = "Supporting Files";
 			sourceTree = "<group>";
 		};
+		BEADA2FE70FD9F8A1359F876 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				CE46E7AA43CB7CECEA0F1041 /* Pods.debug.xcconfig */,
+				E694E77FE14E9836A1F9A9AC /* Pods.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+		C8910511E98A4851E0EAF74A /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				51581C93C975536A97EE8B7C /* libPods.a */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -126,9 +150,11 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 5A748CE01B8BB40200EEA8A5 /* Build configuration list for PBXNativeTarget "JHASearchTutorial" */;
 			buildPhases = (
+				89AB5608A58B58D4595AEE42 /* Check Pods Manifest.lock */,
 				5A748CB91B8BB40200EEA8A5 /* Sources */,
 				5A748CBA1B8BB40200EEA8A5 /* Frameworks */,
 				5A748CBB1B8BB40200EEA8A5 /* Resources */,
+				A80239F346C5A69EAEB39B6E /* Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -213,6 +239,39 @@
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		89AB5608A58B58D4595AEE42 /* Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [[ $? != 0 ]] ; then\n    cat << EOM\nerror: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\nEOM\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+		A80239F346C5A69EAEB39B6E /* Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods/Pods-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
 		5A748CB91B8BB40200EEA8A5 /* Sources */ = {
@@ -345,6 +404,7 @@
 		};
 		5A748CE11B8BB40200EEA8A5 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = CE46E7AA43CB7CECEA0F1041 /* Pods.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				INFOPLIST_FILE = JHASearchTutorial/Info.plist;
@@ -355,6 +415,7 @@
 		};
 		5A748CE21B8BB40200EEA8A5 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = E694E77FE14E9836A1F9A9AC /* Pods.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				INFOPLIST_FILE = JHASearchTutorial/Info.plist;
@@ -416,6 +477,7 @@
 				5A748CE21B8BB40200EEA8A5 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		5A748CE31B8BB40200EEA8A5 /* Build configuration list for PBXNativeTarget "JHASearchTutorialTests" */ = {
 			isa = XCConfigurationList;
@@ -424,6 +486,7 @@
 				5A748CE51B8BB40200EEA8A5 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
