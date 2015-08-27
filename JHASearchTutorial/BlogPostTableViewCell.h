@@ -12,6 +12,5 @@
 @property (strong, nonatomic) IBOutlet UILabel *emojiLabel;
 @property (strong, nonatomic) IBOutlet UILabel *titleLabel;
 @property (strong, nonatomic) IBOutlet UILabel *contentLabel;
-@property (strong, nonatomic) IBOutlet UILabel *dateLabel;
 
 @end

@@ -24,18 +24,12 @@
                         <color key="textColor" red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
                         <nil key="highlightedColor"/>
                     </label>
-                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Blog post description" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="1Xo-T9-9mo">
+                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Blog post description" lineBreakMode="tailTruncation" numberOfLines="3" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="1Xo-T9-9mo">
                         <rect key="frame" x="57" y="35" width="255" height="44"/>
                         <constraints>
                             <constraint firstAttribute="width" constant="255" id="WtX-Ul-kpA"/>
                         </constraints>
                         <fontDescription key="fontDescription" type="system" pointSize="14"/>
-                        <color key="textColor" red="0.53328043222427368" green="0.53337150812149048" blue="0.53326112031936646" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
-                        <nil key="highlightedColor"/>
-                    </label>
-                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="8/11/15" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="jMa-2C-rTk">
-                        <rect key="frame" x="269" y="8" width="43" height="15"/>
-                        <fontDescription key="fontDescription" type="system" pointSize="12"/>
                         <color key="textColor" red="0.53328043222427368" green="0.53337150812149048" blue="0.53326112031936646" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                         <nil key="highlightedColor"/>
                     </label>
@@ -47,11 +41,9 @@
                     </label>
                 </subviews>
                 <constraints>
-                    <constraint firstItem="jMa-2C-rTk" firstAttribute="trailing" secondItem="H2p-sc-9uM" secondAttribute="trailingMargin" id="9PZ-LU-QI2"/>
                     <constraint firstItem="1Xo-T9-9mo" firstAttribute="top" secondItem="eE5-iG-OsZ" secondAttribute="bottom" constant="19" id="AL5-pK-2Qb"/>
                     <constraint firstItem="1Xo-T9-9mo" firstAttribute="top" secondItem="eE5-iG-OsZ" secondAttribute="bottom" constant="5" id="ETZ-vM-ySv"/>
                     <constraint firstItem="eE5-iG-OsZ" firstAttribute="top" secondItem="H2p-sc-9uM" secondAttribute="topMargin" constant="4" id="KiF-LB-RSs"/>
-                    <constraint firstItem="jMa-2C-rTk" firstAttribute="top" secondItem="H2p-sc-9uM" secondAttribute="topMargin" id="Kjn-FN-mg8"/>
                     <constraint firstItem="we1-zw-uqx" firstAttribute="top" secondItem="H2p-sc-9uM" secondAttribute="topMargin" constant="18" id="Mmt-m0-51j"/>
                     <constraint firstItem="1Xo-T9-9mo" firstAttribute="leading" secondItem="we1-zw-uqx" secondAttribute="trailing" constant="19" id="Pos-Fi-fdC"/>
                     <constraint firstAttribute="bottomMargin" secondItem="1Xo-T9-9mo" secondAttribute="bottom" id="QcZ-y9-RSm"/>
@@ -71,7 +63,6 @@
             </tableViewCellContentView>
             <connections>
                 <outlet property="contentLabel" destination="1Xo-T9-9mo" id="5OG-Cb-85n"/>
-                <outlet property="dateLabel" destination="jMa-2C-rTk" id="IIU-1S-15E"/>
                 <outlet property="emojiLabel" destination="we1-zw-uqx" id="05o-v5-3wJ"/>
                 <outlet property="titleLabel" destination="eE5-iG-OsZ" id="14l-8o-Slh"/>
             </connections>
